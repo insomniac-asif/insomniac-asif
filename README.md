@@ -21,6 +21,7 @@ I'm on leave from a CS degree, spending the time building and shipping real syst
 
 - **[receipts](https://github.com/insomniac-asif/receipts)** — reconciles what an agent *claimed* it did against its actual tool-call trace, flagging phantom actions and silent failures.
 - **[toolcall-rescue](https://github.com/insomniac-asif/toolcall-rescue)** — salvages tool calls that leaked into message content as XML, dirty JSON, Hermes tags, or fullwidth-unicode DSML. A fallback for when a model ignores the structured `tool_calls` field.
+- **[egress-guard](https://github.com/insomniac-asif/egress-guard)** — a policy gateway that decides whether an outbound payload may reach a hosted LLM or search provider. A classification ladder where every fault path degrades toward PERSONAL (a broken detector is always a denial), "public" must be positively asserted rather than inferred from the absence of PII hits, and a stdlib-only AST guard catches un-gated calls inside background loops — where these leaks actually hide. Scope stated plainly: it gates calls made *through* it, not raw sockets, so it's a choke point rather than a network control.
 - **[break-your-agent](https://github.com/insomniac-asif/break-your-agent)** — an offline lab for how tool-calling agents get prompt-injected: 11 attacks, 4 toggleable defenses, a red/green scorecard. The honest finding: model alignment isn't a security boundary — only the architectural defenses hold every time.
 
 *Applied systems*
