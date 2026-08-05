@@ -4,7 +4,7 @@
 
 Self-taught systems builder working on **AI-agent reliability** — honesty, calibration, and grounding tooling that gets models to know what they don't know, abstain instead of confabulate, and be straight about what they actually did.
 
-Alongside that I run **ABL**, a local-first personal-AI system that lives entirely on my own hardware (local models only, nothing personal leaves the machine), and I build applied agents — a multi-server Discord bot and a crypto news event-study engine.
+Alongside that I run **[ABL](https://github.com/insomniac-asif/abl-core)**, a local-first personal-AI system that lives entirely on my own hardware (local models only, nothing personal leaves the machine), and I build applied agents — a multi-server Discord bot and a crypto news event-study engine.
 
 I'm on leave from a CS degree, spending the time building and shipping real systems end-to-end instead. The work below is where that time went.
 
@@ -26,6 +26,8 @@ I'm on leave from a CS degree, spending the time building and shipping real syst
 
 *Applied systems*
 
+- **[abl-core](https://github.com/insomniac-asif/abl-core)** — the parts of ABL that are about engineering rather than about me, extracted and runnable: an egress gateway that classifies every outbound request (~650 lines), a long-term memory layer with vector and structured recall, contradiction detection and supersession (~3,800), and a safety layer covering prompt-injection filtering, hallucination flags and invariant checks (~1,850). 128 passing tests. The full system stays private because it holds my own data.
+- **[futures-signal-engine](https://github.com/insomniac-asif/futures-signal-engine)** — decision-support for discretionary futures trading (ES/NQ/GC). It surfaces setups, enforces risk constraints, and simulates outcomes — it does not place orders. A fail-closed go-live gate keeps every strategy on paper until it clears explicit criteria, and `real_money_enabled` defaults to `false`. The repo also keeps a leakage investigation in which I found lookahead in my own data pipeline and invalidated my own prior performance numbers — kept deliberately, because the finding is worth more than the results it killed.
 - **[doll-bot](https://github.com/insomniac-asif/doll-bot)** — one Discord bot for many servers: AI that does real admin work, but every tool is permission-tiered (MOD/ADMIN/OWNER) and destructive ones are confirm-gated. Node / discord.js.
 - **[abl-demo](https://github.com/insomniac-asif/abl-demo)** — a clean-room showcase of ABL's multi-agent architecture: a peer bus and a propose → challenge → execute protocol that requires 3/3 consensus, with a human as the only tiebreaker.
 - **[news-crypto-engine](https://github.com/insomniac-asif/news-crypto-engine)** — ingests crypto news, classifies events into 8 categories, and runs an event study on whether they move price. Most category/window combinations show no signal — and it says so.
@@ -34,7 +36,7 @@ Each repo's README writes its own limitations and costs in as first-class result
 
 ---
 
-**Tech:** Python · JavaScript · FastAPI · local LLMs / Ollama · SQLite & vector search · discord.js
+**Tech:** Python · TypeScript · JavaScript · FastAPI · React · local LLMs / Ollama · SQLite & vector search · discord.js
 
 **How I work:** honesty-first — I'd rather report a smaller number I can defend than a big one I can't. Mechanistic — I don't trust a system until I understand how it computes, not just what it outputs. And I verify my own work end-to-end before I call it done.
 
