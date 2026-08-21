@@ -16,10 +16,25 @@ Alongside that I run **[ABL](https://github.com/insomniac-asif/abl-core)**, a lo
 I'm on leave from a CS degree, spending the time building and shipping real systems end-to-end instead. The work below is where that time went.
 
 ```text
-NOW  ▸ Ornith 2.0 — ABL's own model: routed serving system + identity finetune on my own logs
+NOW  ▸ able-origin — a 29.9M-param LM trained from scratch on one RTX 3070 Ti (2.0B tokens, 9h)
+     ▸ Able 1.0 — the lab's own routed model: multi-teacher distillation + identity finetune
      ▸ absentbornlabs.org — "The Descent": hand-built scroll narrative, GSAP + one WebGL shader
      ▸ 27B models on an 8 GB GPU, measured honestly → absentbornlabs.org/writing/27b-on-8gb
 ```
+
+---
+
+### 🛰 able-origin — a language model born on a gaming GPU
+
+<p>
+  <img src="https://img.shields.io/badge/params-29.9M-DC143C?style=flat-square&labelColor=100F12" alt="29.9M params">
+  <img src="https://img.shields.io/badge/trained_on-1x_RTX_3070_Ti-DC143C?style=flat-square&labelColor=100F12" alt="one 3070 Ti">
+  <img src="https://img.shields.io/badge/val_loss-1.341-DC143C?style=flat-square&labelColor=100F12" alt="val loss 1.341">
+</p>
+
+**[able-origin](https://github.com/insomniac-asif/able-origin)** — architecture written from a blank file, byte-level BPE tokenizer trained from raw text, weights initialized random and pretrained end-to-end: 2.0B tokens in 9 hours on a single 8 GB consumer card. No base model, no forked training code, no inherited weights.
+
+The README states its limits as plainly as its results: it writes children's stories, the architectural blocks are standard published techniques implemented originally, and 30M parameters is a research artifact — not an assistant.
 
 ---
 
