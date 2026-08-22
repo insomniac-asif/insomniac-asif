@@ -7,6 +7,7 @@
   <a href="https://absentbornlabs.org/writing/"><img src="https://img.shields.io/badge/writing-transmissions-C9A24B?style=flat-square&labelColor=100F12" alt="writing"></a>
   <a href="mailto:ahossa21@gmail.com"><img src="https://img.shields.io/badge/email-ahossa21%40gmail.com-ABA6A8?style=flat-square&labelColor=100F12" alt="email"></a>
   <a href="https://www.linkedin.com/in/asif-hossain-90799635b/"><img src="https://img.shields.io/badge/linkedin-asif--hossain-ABA6A8?style=flat-square&labelColor=100F12" alt="linkedin"></a>
+  <a href="https://ko-fi.com/absentbornlabs"><img src="https://img.shields.io/badge/ko--fi-absentbornlabs-FF5E5B?style=flat-square&logo=kofi&logoColor=white&labelColor=100F12" alt="ko-fi"></a>
 </p>
 
 Self-taught systems builder working on **AI-agent reliability** — honesty, calibration, and grounding tooling that gets models to know what they don't know, abstain instead of confabulate, and be straight about what they actually did.
@@ -71,4 +72,4 @@ Each repo's README writes its own limitations and costs in as first-class result
 
 **How I work:** honesty-first — I'd rather report a smaller number I can defend than a big one I can't. Mechanistic — I don't trust a system until I understand how it computes, not just what it outputs. And I verify my own work end-to-end before I call it done.
 
-<sub>📫 ahossa21@gmail.com &nbsp;·&nbsp; 🛰 <a href="https://absentbornlabs.org">absentbornlabs.org</a> &nbsp;·&nbsp; ☕ <a href="https://ko-fi.com/absentbornlabs">ko-fi.com/absentbornlabs</a> &nbsp;·&nbsp; the lab runs local — cloud absent by design</sub>
+<sub>📫 ahossa21@gmail.com &nbsp;·&nbsp; 🛰 <a href="https://absentbornlabs.org">absentbornlabs.org</a> &nbsp;·&nbsp; the lab runs local — cloud absent by design</sub>
