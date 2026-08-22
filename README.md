@@ -71,4 +71,4 @@ Each repo's README writes its own limitations and costs in as first-class result
 
 **How I work:** honesty-first — I'd rather report a smaller number I can defend than a big one I can't. Mechanistic — I don't trust a system until I understand how it computes, not just what it outputs. And I verify my own work end-to-end before I call it done.
 
-<sub>📫 ahossa21@gmail.com &nbsp;·&nbsp; 🛰 <a href="https://absentbornlabs.org">absentbornlabs.org</a> &nbsp;·&nbsp; the lab runs local — cloud absent by design</sub>
+<sub>📫 ahossa21@gmail.com &nbsp;·&nbsp; 🛰 <a href="https://absentbornlabs.org">absentbornlabs.org</a> &nbsp;·&nbsp; ☕ <a href="https://ko-fi.com/absentbornlabs">ko-fi.com/absentbornlabs</a> &nbsp;·&nbsp; the lab runs local — cloud absent by design</sub>
